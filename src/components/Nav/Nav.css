@@ -3,26 +3,30 @@
     text-align: center;
   }
   
-  .itemLeft {
+  .itemLeft, .itemRight {
     width: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
   }
   
   .itemCenter {
       width: 70%;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      padding-top: 20px;
   }
   
-  .itemRight {
-    width: 15%;
-  }
   
-  .navbar {
-    background: #490549;
+  .navbar  {
+    background: black;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    margin-bottom: 50px;
   }
+
   
   li {
     color: white;
-    padding: 15px 0;
   }
   
   body {

@@ -6,8 +6,8 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-default navbar-fixed-top">
          <ul>
-          <li className="itemLeft">Test Your Memory</li>
-          <li className="itemCenter"></li>
+          <li className="itemLeft"><img src={require("../../images/spinaltap.jpeg")} alt="Spinal Tap" height="150px"/></li>
+          <li className="itemCenter">Win the game by clicking all 12 images without clicking the same image twice.</li>
           <li className="itemRight">Score: {this.props.score}</li>
         </ul>
       </nav>
