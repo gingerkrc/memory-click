@@ -6,4 +6,4 @@ Technologies used: React.js, Bootstrap.
 
 Contributor: https://github.com/gingerkrc/
 
-URL: 
+URL: https://gingerkrc.github.io/memory-click/
